@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.card{
+  background: pink;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
