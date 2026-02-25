@@ -41,7 +41,7 @@ const App = () => {
           </div>
           <div className='flex flex-wrap flex-col'>
             <p className='p-5 font-bold text-center'>Page no - {page}</p>
-            <div className='m-5 gap-5 flex justify-center items-center'>
+            <div className='m-5 cursor-pointer gap-5 flex justify-center items-center'>
               <button onClick={() => {
                 if (page > 1) {
                   setData([]),
@@ -59,7 +59,7 @@ const App = () => {
                     setPage(page + 1)
                 }
                 }
-                className='bg-amber-300 py-4 px-5 rounded active:scale-95'
+                className='bg-amber-300 cursor-pointer py-4 px-5 rounded active:scale-95'
               >Next
               </button>
 
