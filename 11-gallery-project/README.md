@@ -1,16 +1,77 @@
-# React + Vite
+# 📸 React Image Gallery Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive image gallery built with React.js, Axios, and Tailwind CSS. Fetches images dynamically from the Picsum API with pagination support.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔄 Dynamic image fetching from Picsum API
+- ⏭️ Next/Previous pagination
+- ⏳ Loading indicators
+- 📱 Fully responsive design
+- ⚡ Optimized image loading
+- 🎨 Tailwind CSS styling
+- 🧠 Modern React Hooks (useState, useEffect)
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js** – Frontend framework
+- **Axios** – HTTP client for API calls
+- **Tailwind CSS** – Styling
+- **Picsum API** – Image source
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+├── App.jsx
+├── main.jsx
+├── index.css
+└── components/
+```
+
+## ⚙️ Installation
+
+```bash
+# Clone repository
+git clone https://github.com/Rahul-college-use/react-image-gallery.git
+
+# Navigate to folder
+cd react-image-gallery
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## 📡 API Reference
+
+**Picsum Photos API**
+```
+https://picsum.photos/v2/list?page=1&limit=20
+```
+
+## 🎯 Learning Outcomes
+
+- React API integration
+- Pagination implementation
+- React Hooks fundamentals
+- Responsive UI design
+
+## 🔮 Future Enhancements
+
+- Infinite scroll implementation
+- Image lightbox/modal preview
+- Search and filter functionality
+- Download and favorite features
+- Backend integration
+
+## 👨‍💻 Author
+
+**Rahul Kumar**
+- GitHub: https://github.com/Rahul-college-use
+
+---
+
+⭐ *If you found this helpful, please star the repository!*
